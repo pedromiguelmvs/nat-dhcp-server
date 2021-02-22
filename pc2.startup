@@ -1,0 +1,6 @@
+# Configurações de IP
+# ifconfig eth0 10.0.1.0/24
+
+# Configurações de Roteamento
+route add default gw 10.0.3.1/24
+dhclient

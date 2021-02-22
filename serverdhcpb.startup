@@ -1,0 +1,4 @@
+ifconfig eth0 10.0.3.254/24
+route add default gw 10.0.3.1
+etc/init.d/isc-dhcp-server start
+
